@@ -1,0 +1,110 @@
+body{
+  margin: 0 !important;
+}
+div.nav {
+  padding: 30px;
+  border: 20px;
+  margin-top: 20px;
+  background-color: aquamarine;
+}
+
+div.nav a {
+  text-decoration: none;
+  color: black;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.content .color {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content .color div {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.content .color .biru {
+  background-color: purple;
+}
+
+.content .color .hijau {
+  background-color: blue;
+}
+
+.content .color .merah {
+  background-color: orangered;
+}
+
+.content .color .kuning {
+  background-color: black;
+}
+
+.content .color .hitam {
+  background-color: brown;
+}
+.about .title button{
+  width: 370px;
+  background-color: aquamarine;
+}
+
+.container p {
+  width: 370px;
+  height: auto;
+}
+.img1 img{
+  border: 1px;
+  border-style: solid;
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  margin: 20px 10px;
+}
+
+footer {
+  background-color: aquamarine;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
+}
+
+.footer-1 h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 20px; */
+  /* margin: 100px 0; */
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-4 {
+  display: flex;
+  flex-direction: column;
+  
+}
