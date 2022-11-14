@@ -1,0 +1,12 @@
+.rounded img {
+    border-radius: 25px;
+}
+
+.content p b {
+    width: 200px;
+    height: auto;
+  }
+  
+.last img {
+    text-align: center !important;
+}
