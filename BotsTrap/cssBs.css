@@ -8,3 +8,8 @@
 .last img {
     text-align: center !important;
 }
+
+.rounded img {
+  border-radius: 50%;
+
+}

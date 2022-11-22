@@ -31,6 +31,9 @@ $(document).ready (function () {
         const gambar2 = $("#gambar2").attr("src");
         $("#gambarUtama").attr("src",gambar2);
         $("#gambarUtama").attr("height", "500px");
+        $("#nameKursi").html("Chair Thatty");  //NAMA KURSI
+        $("#price").html("IDR.89.300.000");     //HARGA
+
     });
 
     $("#gambar3").click(function (e) {
@@ -48,7 +51,7 @@ $(document).ready (function () {
     });
 
     // END SELECT GAMBAR UTAMA //
-    $("#btnShipping").submit(function(e){
+    $("#formSubmit").submit(function(e){
         e.preventDefault();
         $("#formShipping").addClass("d-none");
         $("#alert").removeClass("d-none");
@@ -56,7 +59,7 @@ $(document).ready (function () {
         const lastname = $("#lastName").val();
         $("#title").html("Terimakasih " + firstname + " " + lastname);
         const isi = $("#address").val();
-        $("#Isi").html("Paket akan segera dikirim " + isi);
+        $("#Isi").html("Paket akan segera dikirim ke " + isi);
       });
 
     //   $("button").click(function(){
