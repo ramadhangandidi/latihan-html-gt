@@ -44,22 +44,30 @@
 </nav>
 
 
-    <nav class="navbar navbar-expand-lg bg-light mt-2">
-    <div class="d-flex px-5">
-    <a class="nav-link active" style="text-decoration:none ; color: black;"  aria-current="page" href="/BotsTrap/latihanBs.html">Home /</a>
-    <a class="nav-link active" style="text-decoration:none ; color: black;" href="#">Office Room /</a>
-    <a class="nav-link active" style="text-decoration:none ; color: black;" href="#">Detail /</a>
+<!-- <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Office Room</a></li>
+    <li class="breadcrumb-item" aria-current="page">Detail</li>
+    <li class="breadcrumb-item active" aria-current="page">Shipping</li>
+  </ol>
+</nav> -->
+    <nav class="navbar navbar-expand-lg bg-light mt-2 ">
+    <div class="d-flex px-5 ml-4">
+    <a class="nav-link active" style="text-decoration:none ; color: black;"  aria-current="page" href="/BotsTrap/latihanBs.html">Home</a>
+    <a class="nav-link active" style="text-decoration:none ; color: black;" href="#">Office Room</a>
+    <a class="nav-link active" style="text-decoration:none ; color: black;" href="#">Detail</a> 
     <a class="nav-link active" href="/BotsTrap/shippingForm.html">Shipping</a>
     <link rel="apple-touch-icon" href="/latihanBs.html">
     </div>
     </nav>
 
 <!-- ALERT -->
-<div class="alert alert-warning alert-dismissible fade show d-none" role="alert" id="alert">
- <h4 id="title"></h4>
- <p id="Isi"></p>
+<div class="alert alert-warning alert-dismissible fade show d-none text-center" role="alert" id="alert">
+ <h2 id="title"></h2>
+ <h5  id="Isi"></h5>
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-  <button class="btn btn-outline-danger"  style="background-color:pink ;" type="submit" ><a href="/BotsTrap/latihanBs.html">BACK</a> </button>
+  <button class="btn btn-outline-danger btn-lg"  style="background-color:pink ;" type="button" ><a href="/BotsTrap/latihanBs.html" style="text-decoration: none; color:blue;">BACK</a> </button>
 </div>
 <!-- END ALERT -->
 
@@ -72,12 +80,12 @@
                     <div class="form-group">
                         <label for="exampleInputEmail1">First Name</label>
                         <input type="first" class="form-control" id="firstName" aria-describedby="emailHelp"
-                            placeholder="Enter your first name" />
+                            placeholder="Enter your first name" required />
                     </div>
                     <div class="form-group mx-3">
                         <label for="exampleInputPassword1">Phone number</label>
                         <input type="phone" class="form-control" id="exampleInputPassword1"
-                            placeholder="Enter phone number" />
+                            placeholder="Enter phone number" required />
                     </div>
                     <div>
 
@@ -88,11 +96,11 @@
                     <div class="form-group">
                         <label for="exampleInputEmail1">Last name</label>
                         <input type="last" class="form-control" id="lastName" aria-describedby="emailHelp"
-                            placeholder="Enter your last name" />
+                            placeholder="Enter your last name" required />
                     </div>
                     <div class="form-group mx-3">
                         <label for="exampleInputPassword1">City</label>
-                        <input type="city" class="form-control" id="exampleInputPassword1" placeholder="Enter city" />
+                        <input type="city" class="form-control" id="exampleInputPassword1" placeholder="Enter city" required />
                     </div>
                     <div>
 
@@ -103,12 +111,12 @@
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Enter Email" />
+                            placeholder="Enter Email" required />
                     </div>
                     <div class="form-group mx-3">
                         <label for="exampleInputPassword1">Postal Code</label>
                         <input type="postal" class="form-control" id="exampleInputPassword1"
-                            placeholder="Enter postal code" />
+                            placeholder="Enter postal code" required />
                     </div>
                     <div>
                     </div>
@@ -117,7 +125,7 @@
                 <div class="form-group">
                     <label for="exampleInputEmail1">Address</label>
                     <textarea type="address" class="form-control" id="address" aria-describedby="emailHelp"
-                        placeholder="Enter address"></textarea>
+                        placeholder="Enter address" required></textarea>
                 </div>
                 <br>
 

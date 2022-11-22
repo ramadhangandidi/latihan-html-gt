@@ -6,8 +6,10 @@ $(document).ready (function () {
         
 
         $("#divAlert").removeClass("d-none");
-        const lerr = $("#inputNama").val();
-        $("#alertText").html(" " + lerr);
+        const input = $("#inputNama").val();
+        $("#alertText").html("" + input + " link sudah dapat dilihat di email anda" );
+        
+
     });
     
     $("#btnClose").click(function () {
@@ -46,7 +48,7 @@ $(document).ready (function () {
     });
 
     // END SELECT GAMBAR UTAMA //
-    $("#btnShipping").click(function(e){
+    $("#btnShipping").submit(function(e){
         e.preventDefault();
         $("#formShipping").addClass("d-none");
         $("#alert").removeClass("d-none");
@@ -54,7 +56,7 @@ $(document).ready (function () {
         const lastname = $("#lastName").val();
         $("#title").html("Terimakasih " + firstname + " " + lastname);
         const isi = $("#address").val();
-        $("#Isi").html("Paket akan dikirim ke " + isi);
+        $("#Isi").html("Paket akan segera dikirim " + isi);
       });
 
     //   $("button").click(function(){
